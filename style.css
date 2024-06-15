@@ -336,3 +336,35 @@ article {
 article .icon {
   cursor: default;
 }
+
+/* Project */
+#project {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: #000;
+}
+
+.project-btn {
+  color: #000;
+  border-color: rgb(163, 163, 163);
+}
+
+#project .arrow {
+  position: absolute;
+  right: -9rem;
+  bottom: 0;
+}
